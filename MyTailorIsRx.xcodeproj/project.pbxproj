@@ -16,6 +16,9 @@
 		B6E2CA1B25C7552F000A582C /* MyTailorIsRxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2CA1A25C7552F000A582C /* MyTailorIsRxTests.swift */; };
 		B6E2CA2625C7552F000A582C /* MyTailorIsRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2CA2525C7552F000A582C /* MyTailorIsRxUITests.swift */; };
 		B6E2CA3725C7E958000A582C /* ServerInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6E2CA3625C7E958000A582C /* ServerInfo.plist */; };
+		B6E2CA3C25C7EEC8000A582C /* ServerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2CA3B25C7EEC8000A582C /* ServerInfo.swift */; };
+		B6E2CA4125C802C8000A582C /* ServerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2CA4025C802C8000A582C /* ServerUtils.swift */; };
+		B6E2CA4625C80AEC000A582C /* APOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2CA4525C80AEC000A582C /* APOD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		B6E2CA2525C7552F000A582C /* MyTailorIsRxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTailorIsRxUITests.swift; sourceTree = "<group>"; };
 		B6E2CA2725C7552F000A582C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6E2CA3625C7E958000A582C /* ServerInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ServerInfo.plist; sourceTree = "<group>"; };
+		B6E2CA3B25C7EEC8000A582C /* ServerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerInfo.swift; sourceTree = "<group>"; };
+		B6E2CA4025C802C8000A582C /* ServerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerUtils.swift; sourceTree = "<group>"; };
+		B6E2CA4525C80AEC000A582C /* APOD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APOD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,8 @@
 				B6E2CA0E25C7552F000A582C /* LaunchScreen.storyboard */,
 				B6E2CA1125C7552F000A582C /* Info.plist */,
 				B6E2CA3625C7E958000A582C /* ServerInfo.plist */,
+				B6E2CA4A25C80B00000A582C /* Models */,
+				B6E2CA4E25C80B0D000A582C /* Utils */,
 			);
 			path = MyTailorIsRx;
 			sourceTree = "<group>";
@@ -129,6 +137,23 @@
 				B6E2CA2725C7552F000A582C /* Info.plist */,
 			);
 			path = MyTailorIsRxUITests;
+			sourceTree = "<group>";
+		};
+		B6E2CA4A25C80B00000A582C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6E2CA3B25C7EEC8000A582C /* ServerInfo.swift */,
+				B6E2CA4525C80AEC000A582C /* APOD.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B6E2CA4E25C80B0D000A582C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B6E2CA4025C802C8000A582C /* ServerUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6E2CA0825C7552E000A582C /* ViewController.swift in Sources */,
+				B6E2CA4625C80AEC000A582C /* APOD.swift in Sources */,
+				B6E2CA4125C802C8000A582C /* ServerUtils.swift in Sources */,
 				B6E2CA0425C7552E000A582C /* AppDelegate.swift in Sources */,
+				B6E2CA3C25C7EEC8000A582C /* ServerInfo.swift in Sources */,
 				B6E2CA0625C7552E000A582C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
